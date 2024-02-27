@@ -1,7 +1,7 @@
 const express = require('express');
 const config = require('config');
 const mongoose = require('mongoose');
-const taskRoutes = require('./routes/tasks');
+const taskRoutes = require('./routes/routes');
 
 const app = express();
 
